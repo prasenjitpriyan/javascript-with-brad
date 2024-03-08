@@ -23,3 +23,18 @@ JavaScript is one of the core technologies of the web alongside HTML, which is a
 - We can also create single page applications or SPA, and these are applications that load a single HTML page and dynamically update the content without having to reload the entire page and this provides a really seamless and responsive user experience. So no page reloading we can create different routes and so on.
 
 - Creating APIs & Web Services (Node.js, Deno) => You can also use it on the server side with the Node.js runtime as well as Deno. So in addition to consuming APIs from the front end, we can also create APIs that interact with databases on the back end. And there's a ton of frameworks that you can use to help you with this, including Express.
+
+## Console
+
+Now what this is, is console is an object. And remember, an object has properties and methods. A method is a function. So log is the method that I'm using. And to execute a function or a method, you have to use parentheses. So I'm executing the log method that's on the console object and we use this dot syntax in JavaScript to access properties and methods.
+
+```js
+const styles = 'padding: 10px; background-color: white; color: green';
+console.log('%Hello World', styles);
+```
+
+## Data Types
+
+- Primitive types: Stored directly in the "stack", where it is accessed from.
+
+- Reference types: Stored in the heap and accessed by reference.
